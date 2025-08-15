@@ -167,3 +167,87 @@
     padding: 5px 10px;
     user-select: none;
 }
+.footer {
+    background: linear-gradient(to right, #e85629, #f17c29, #f9a428);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px 20px;
+    border-top: 1px solid black;
+}
+
+.footer-coluna h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-coluna ul {
+    list-style: none;
+}
+
+.footer-coluna ul li {
+    margin-bottom: 8px;
+}
+
+.footer-coluna ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-coluna ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .header-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .search-container {
+        width: 80vw;
+        max-width: none;
+    }
+
+    .icones img {
+        height: 40px;
+    }
+
+    .slider img.produto {
+        width: 150px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container {
+        width: 90vw;
+    }
+
+    .icones img {
+        height: 30px;
+    }
+
+    .slider img.produto {
+        width: 120px;
+        height: 180px;
+    }
+
+    .banner {
+        font-size: 24px;
+        padding: 20px;
+    }
+}
