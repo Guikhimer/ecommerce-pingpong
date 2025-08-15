@@ -1,10 +1,11 @@
+/* Reset*/
 * {
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
-
+/* Header*/
 .container-header {
     background-image: linear-gradient(to right, #e85629, #f17c29, #f9a428);
     height: 90px;
@@ -21,7 +22,7 @@
     max-width: 1200px;
     gap: 20px;
 }
-
+/* Barra de pesquisa*/
 .search-container {
     position: relative;
     display: flex;
@@ -81,7 +82,7 @@
     max-width: 1200px;
     margin: 0 auto 20px auto;
 }
-
+/* Imagens do carrocel*/
 .item1,
 .item2,
 .item3,
@@ -109,7 +110,7 @@
 .item5 {
     background-color: #f9a428;
 }
-
+/* Banner do site*/
 .banner {
     background-image: linear-gradient(to right, #e85629, #f17c29, #f9a428);
     padding: 40px;
@@ -156,7 +157,7 @@
     border: 1px solid black;
     display: block;
 }
-
+/* Setinhas*/
 .seta-esquerda,
 .seta-direita {
     font-size: 80px;
@@ -167,6 +168,7 @@
     padding: 5px 10px;
     user-select: none;
 }
+/* Footer*/
 .footer {
     background: linear-gradient(to right, #e85629, #f17c29, #f9a428);
     color: white;
@@ -209,7 +211,7 @@
     padding: 15px;
     font-size: 14px;
 }
-
+/* Responsividade*/
 @media (max-width: 900px) {
     .header-content {
         flex-wrap: wrap;
